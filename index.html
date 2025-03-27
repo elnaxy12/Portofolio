@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio | Gilang Arya</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -100,6 +100,7 @@
             </button>
             <nav id="menu" class="fixed top-0 right-0 h-full bg-white shadow-lg p-6 transform translate-x-full md:relative md:p-0 md:bg-transparent md:shadow-none md:h-auto md:flex md:space-x-4">
                 <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                    <li></li>
                     <li><a href="#about" class="hover:text-red-500">Tentang</a></li>
                     <li><a href="#album" class="hover:text-red-500">Pencapaian</a></li>
                     <li><a href="#experience" class="hover:text-red-500">Pengalaman</a></li>
@@ -128,10 +129,10 @@
             <h2 class="text-3xl font-bold text-center">Pengalaman</h2>
             <div class="mt-4 text-lg max-w-2xl mx-auto">
                 <p><strong>Wakil Ketua</strong> - Remaja Islami Masjid Al-Muhajirin (Mei 2024 - Sekarang)</p>
-                <p>"Menjadi pemimpin yang inspiratif dan suportif dalam mendukung visi organisasi serta memastikan kolaborasi yang harmonis untuk mencapai tujuan bersama."</p>
+                <p style="font-size: smaller;"><br>"Menjadi pemimpin yang inspiratif dan suportif dalam mendukung visi organisasi serta memastikan kolaborasi yang harmonis untuk mencapai tujuan bersama."</p>
                 <p style="color: gray; font-size: small;"><br><span style="color: black; font-size: larger;">Keahlian : </span>Event Planning · Communication · Organizational Leadership · Team Organization</p>
                 <p class="mt-4"><strong>Ketua Sekretaris Organisasi Sekolah (OSIS)</strong> - SMKN 1 Cikarang Barat (Feb 2023 - Mar 2024)</p>
-                <p>"Mengelola administrasi, menyusun laporan kegiatan, serta mengkoordinasikan berbagai proyek sekolah."</p>
+                <p style="font-size: smaller;"><br>"Mengelola administrasi, menyusun laporan kegiatan, serta mengkoordinasikan berbagai proyek sekolah."</p>
                 <p style="color: gray; font-size: small;"><br><span style="color: black; font-size: larger;">Keahlian : </span>Microsoft Office · Typing · Team Organization · Communication · Teamwork · Team Leadership</p>
             </div>
         </section>
@@ -161,7 +162,7 @@
             } else {
                 menu.classList.add('show');
                 menu.style.transform = 'translateX(0)';
-                toggle.style.transform = 'translateX(-140px)';
+                toggle.style.transform = 'translateX(0px)';
             }
         });
         
