@@ -20,7 +20,7 @@
             transition: transform 0.3s ease-in-out;
         }
         #menu.show {
-            transform: translateX(0);
+            transform: translateY(0);
         }
         #menu-toggle {
             transition: transform 0.3s ease-in-out;
@@ -102,12 +102,12 @@
                 <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                     <li></li>
                     <li></li>
-                    <li><a href="#about" class="hover:text-gray-500">Tentang</a></li>
-                    <li><a href="#album" class="hover:text-gray-500">Pencapaian</a></li>
-                    <li><a href="#experience" class="hover:text-gray-500">Pengalaman</a></li>
+                    <li><a href="#about" class="hover:text-gray-500">About</a></li>
+                    <li><a href="#album" class="hover:text-gray-500">My Achievements</a></li>
+                    <li><a href="#experience" class="hover:text-gray-500">Experience</a></li>
                     <li><a href="#education" class="hover:text-gray-500">Education</a></li>
-                    <li><a href="#contact" class="hover:text-gray-500">Kontak</a></li>
-                    <li><a href="#" onclick="closeWindow()" class="hover:text-red-500 hover:opacity-80" style="color: red;">Keluar</a></li>
+                    <li><a href="#Contact" class="hover:text-gray-500">Contact</a></li>
+                    <li><a href="#" onclick="closeWindow()" class="hover:text-red-500 hover:opacity-80" style="color: red;"><i class="fa-solid fa-arrow-right-from-bracket"></i> Closed</a></li>
                 </ul>
             </nav>
         </div>
@@ -115,12 +115,12 @@
     
     <main id="about" class="mt-20 container mx-auto p-4">
         <section class="text-center py-10">
-            <h2 class="text-3xl font-bold">Tentang Saya</h2>
+            <h2 class="text-3xl font-bold">About Me</h2>
             <p class="mt-4 text-lg max-w-2xl mx-auto">Fresh Graduate SMKN 1 Cikarang Barat | Teknik Elektronika Industri | Penerapan Rangkaian Elektronika | Sistem Pengendali Elektronik | Pengendali Sistem Robotik</p>
         </section>
         
         <section id="album" class="py-10">
-            <h2 class="text-3xl font-bold text-center">Pencapaian Saya</h2>
+            <h2 class="text-3xl font-bold text-center">My Achievements</h2>
             <div class="mt-6 slider">
                 <div><img src="sertifikat_excel_basic.png" alt="Gambar 1" class="rounded-lg shadow-md"></div>
                 <div><img src="sertifikat_excel_index_match.png" alt="Gambar 2" class="rounded-lg shadow-md"></div>
@@ -153,7 +153,7 @@
         <div class="icon" style="place-items: center; height: 30vh; display: grid;">
             <i class="fa-solid fa-magnifying-glass" style="font-size: 10ch;"></i>        </div>
         <section id="experience" class="py-10">
-            <h2 class="text-3xl font-bold text-center">Pengalaman</h2>
+            <h2 class="text-3xl font-bold text-center">Experience</h2>
             <div class="mt-4 text-lg max-w-2xl mx-auto">
                 <p><strong>Wakil Ketua (RISMA)</strong> - Masjid Al-Muhajirin (Mei 2024 - Sekarang)</p>
                 <p style="font-size: smaller; text-align: justify;"><br>"Menjadi pemimpin yang inspiratif dan suportif dalam mendukung visi organisasi serta memastikan kolaborasi yang harmonis untuk mencapai tujuan bersama."</p>
@@ -163,11 +163,11 @@
                 <p style="color: gray; font-size: small;"><span style="color: black; font-size: larger;">Keahlian : </span>Microsoft Office · Typing · Team Organization · Communication · Teamwork · Team Leadership</p>
             </div>
         </section>
-        <div class="icon" style="place-items: center; height: 40vh; display: grid;">
+        <div class="icon" style="place-items: center; height: 30vh; display: grid;">
             <i class="fa-solid fa-graduation-cap" style="font-size:10ch;"></i>
         </div>
         <section id="education" class="py-10">
-            <h2 class="text-3xl font-bold text-center">Pendidikan</h2>
+            <h2 class="text-3xl font-bold text-center">Education</h2>
             <div class="mt-4 text-lg max-w-2xl mx-auto">
                 <p><strong>Rekayasa Perangkat Lunak</strong> - Universitas Bina Sarana Informatika</p>
                 <p style="font-size: smaller; text-align: justify;">Gelar Sarjana, Rekayasa Perangkat Lunak</p>
@@ -180,8 +180,8 @@
             </div>
         </section>
         
-        <section id="contact" class="text-center py-10">
-            <h2 class="text-3xl font-bold">Kontak</h2>
+        <section id="Contact" class="text-center py-10">
+            <h2 class="text-3xl font-bold">Contact</h2>
             <p class="mt-4 text-lg" style="font-size: smaller;">Silakan hubungi saya melalui email: <a href="mailto:aryagilang533@gmail.com?subject=Judul%20Email&body=Isi%20Pesan" class="text-black-500" style="text-decoration: underline;">aryagilang533@gmail.com</a></p>
             <div class="media-sosial">
                 <a href="https://www.instagram.com/gryaaaaaa_/" target="_blank"><i class="fab fa-instagram"></i></a>
