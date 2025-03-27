@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Portofolio | Gilang Arya</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -105,7 +105,7 @@
                     <li><a href="#album" class="hover:text-gray-500">Pencapaian</a></li>
                     <li><a href="#experience" class="hover:text-gray-500">Pengalaman</a></li>
                     <li><a href="#contact" class="hover:text-gray-500">Kontak</a></li>
-                    <li><a href="javascript:window.history.back();" class="hover:opacity-80" style="color: red;">Keluar</a></li>
+                    <li><a href="#" onclick="closeWindow()" class="hover:text-red-500 hover:opacity-80" style="color: red;">Keluar</a></li>
                 </ul>
             </nav>
         </div>
@@ -140,7 +140,7 @@
         
         <section id="contact" class="text-center py-10">
             <h2 class="text-3xl font-bold">Kontak</h2>
-            <p class="mt-4 text-lg">Silakan hubungi saya melalui email: <a href="mailto:email@example.com?subject=Judul%20Email&body=Isi%20Pesan" class="text-black-500" style="text-decoration: underline;">aryagilang533@gmail.com</a></p>
+            <p class="mt-4 text-lg">Silakan hubungi saya melalui email: <a href="mailto:aryagilang533@gmail.com?subject=Judul%20Email&body=Isi%20Pesan" class="text-black-500" style="text-decoration: underline;">aryagilang533@gmail.com</a></p>
         </section>
     </main>
     
@@ -179,5 +179,10 @@
             });
         });
     </script>
+    <script>
+        function closeWindow() {
+            window.close();
+        }
+    </script>    
 </body>
 </html>
