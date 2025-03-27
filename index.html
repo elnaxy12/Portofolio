@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -101,10 +101,12 @@
             <nav id="menu" class="fixed top-0 right-0 h-full bg-white shadow-lg p-6 transform translate-x-full md:relative md:p-0 md:bg-transparent md:shadow-none md:h-auto md:flex md:space-x-4">
                 <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                     <li></li>
+                    <li></li>
                     <li><a href="#about" class="hover:text-gray-500">Tentang</a></li>
                     <li><a href="#album" class="hover:text-gray-500">Pencapaian</a></li>
                     <li><a href="#experience" class="hover:text-gray-500">Pengalaman</a></li>
                     <li><a href="#contact" class="hover:text-gray-500">Kontak</a></li>
+                    <li><a href="#education" class="hover:text-gray-500">education</a></li>
                     <li><a href="#" onclick="closeWindow()" class="hover:text-red-500 hover:opacity-80" style="color: red;">Keluar</a></li>
                 </ul>
             </nav>
@@ -129,23 +131,50 @@
         <section id="experience" class="py-10">
             <h2 class="text-3xl font-bold text-center">Pengalaman</h2>
             <div class="mt-4 text-lg max-w-2xl mx-auto">
-                <p><strong>Wakil Ketua</strong> - Remaja Islami Masjid Al-Muhajirin (Mei 2024 - Sekarang)</p>
-                <p style="font-size: smaller;"><br>"Menjadi pemimpin yang inspiratif dan suportif dalam mendukung visi organisasi serta memastikan kolaborasi yang harmonis untuk mencapai tujuan bersama."</p>
-                <p style="color: gray; font-size: small;"><br><span style="color: black; font-size: larger;">Keahlian : </span>Event Planning · Communication · Organizational Leadership · Team Organization</p>
-                <p class="mt-4"><strong>Ketua Sekretaris Organisasi Sekolah (OSIS)</strong> - SMKN 1 Cikarang Barat (Feb 2023 - Mar 2024)</p>
-                <p style="font-size: smaller;"><br>"Mengelola administrasi, menyusun laporan kegiatan, serta mengkoordinasikan berbagai proyek sekolah."</p>
-                <p style="color: gray; font-size: small;"><br><span style="color: black; font-size: larger;">Keahlian : </span>Microsoft Office · Typing · Team Organization · Communication · Teamwork · Team Leadership</p>
+                <p><strong>Wakil Ketua (RISMA)</strong> - Masjid Al-Muhajirin (Mei 2024 - Sekarang)</p>
+                <p style="font-size: smaller; text-align: justify;"><br>"Menjadi pemimpin yang inspiratif dan suportif dalam mendukung visi organisasi serta memastikan kolaborasi yang harmonis untuk mencapai tujuan bersama."</p>
+                <p style="color: gray; font-size: small;"><span style="color: black; font-size: larger;">Keahlian : </span>Event Planning · Communication · Organizational Leadership · Team Organization</p>
+                <p class="mt-4"><strong><br>Ketua Sekretaris (OSIS)</strong> - SMKN 1 Cikarang Barat (Feb 2023 - Mar 2024)</p>
+                <p style="font-size: smaller; text-align: justify;"><br>"Mengelola administrasi, menyusun laporan kegiatan, serta mengkoordinasikan berbagai proyek sekolah."</p>
+                <p style="color: gray; font-size: small;"><span style="color: black; font-size: larger;">Keahlian : </span>Microsoft Office · Typing · Team Organization · Communication · Teamwork · Team Leadership</p>
+            </div>
+        </section>
+
+        <section id="education" class="py-10">
+            <h2 class="text-3xl font-bold text-center">Pendidikan</h2>
+            <div class="mt-4 text-lg max-w-2xl mx-auto">
+                <p><strong>Rekayasa Perangkat Lunak</strong> - Universitas Bina Sarana Informatika</p>
+                <p style="font-size: smaller; text-align: justify;">Gelar Sarjana, Rekayasa Perangkat Lunak</p>
+                <p style="font-size: small; color: gray;">Sep 2024</p>
+                <p style="color: gray; font-size: small;"><span style="color: black; font-size: larger;"><br>Keahlian : </span>Web Development · Mobile Computing · Python (Bahasa Pemrograman) · Software Engineering Practices · Cloud Computing · Software Development</p>
+                <p class="mt-4"><strong><br>Teknik Elektronika Industri</strong> - SMKN 1 Cikarang Barat</p>
+                <p style="font-size: smaller; text-align: justify;">High School Diploma, Teknik Elektronika Industri</p>
+                <p style="font-size: small; color: gray;">Des 2021 - Jan 2024</p>
+                <p style="color: gray; font-size: small;"><span style="color: black; font-size: larger;"><br>Keahlian : </span>Diptrace · Penerapan Rangkaian Elektronika · Sistem Pengendali Elektronika · Arduino IDE · Pengendali Sistem Robotik · Proteus</p>
             </div>
         </section>
         
         <section id="contact" class="text-center py-10">
             <h2 class="text-3xl font-bold">Kontak</h2>
-            <p class="mt-4 text-lg">Silakan hubungi saya melalui email: <a href="mailto:aryagilang533@gmail.com?subject=Judul%20Email&body=Isi%20Pesan" class="text-black-500" style="text-decoration: underline;">aryagilang533@gmail.com</a></p>
+            <p class="mt-4 text-lg" style="font-size: smaller;">Silakan hubungi saya melalui email: <a href="mailto:aryagilang533@gmail.com?subject=Judul%20Email&body=Isi%20Pesan" class="text-black-500" style="text-decoration: underline;">aryagilang533@gmail.com</a></p>
+            <div class="media-sosial">
+                <a href="https://www.instagram.com/gryaaaaaa_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/gilangarya/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/gilang.arya.3114/?locale=id_ID" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://discord.gg/xA524t2A6W" target="_blank"><i class="fab fa-discord"></i></a>
+            </div>
         </section>
     </main>
-    
-    <footer class="bg-white shadow-md p-4 text-center mt-10">
-        <p>&copy; 2025 Gilang Arya. Semua Hak Dilindungi.</p>
+    <style>
+        .media-sosial {
+            a {
+                margin-left: 5px;
+            }
+        }
+    </style>
+
+    <footer class="bg-gray shadow-md p-2 text-center mt-10">
+        <p>My Portofolio, Gilang Arya &copy; 2025</p>
     </footer>
     
     <script>
