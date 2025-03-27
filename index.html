@@ -105,8 +105,8 @@
                     <li><a href="#about" class="hover:text-gray-500">Tentang</a></li>
                     <li><a href="#album" class="hover:text-gray-500">Pencapaian</a></li>
                     <li><a href="#experience" class="hover:text-gray-500">Pengalaman</a></li>
+                    <li><a href="#education" class="hover:text-gray-500">Education</a></li>
                     <li><a href="#contact" class="hover:text-gray-500">Kontak</a></li>
-                    <li><a href="#education" class="hover:text-gray-500">education</a></li>
                     <li><a href="#" onclick="closeWindow()" class="hover:text-red-500 hover:opacity-80" style="color: red;">Keluar</a></li>
                 </ul>
             </nav>
@@ -127,7 +127,31 @@
                 <div><img src="sertifikat_excel_pivot_table.png" alt="Gambar 3" class="rounded-lg shadow-md"></div>
             </div>
         </section>
-        
+        <!--Animasi Icon-->
+        <style>
+                @keyframes goyang {
+            0%, 100% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(5deg);
+            }
+            50% {
+                transform: rotate(-5deg);
+            }
+            75% {
+                transform: rotate(3deg);
+            }
+        }
+
+        .icon i {
+            display: inline-block;
+            animation: goyang 5s infinite ease-in-out;
+        }
+
+        </style>
+        <div class="icon" style="place-items: center; height: 30vh; display: grid;">
+            <i class="fa-solid fa-magnifying-glass" style="font-size: 10ch;"></i>        </div>
         <section id="experience" class="py-10">
             <h2 class="text-3xl font-bold text-center">Pengalaman</h2>
             <div class="mt-4 text-lg max-w-2xl mx-auto">
@@ -139,7 +163,9 @@
                 <p style="color: gray; font-size: small;"><span style="color: black; font-size: larger;">Keahlian : </span>Microsoft Office · Typing · Team Organization · Communication · Teamwork · Team Leadership</p>
             </div>
         </section>
-
+        <div class="icon" style="place-items: center; height: 40vh; display: grid;">
+            <i class="fa-solid fa-graduation-cap" style="font-size:10ch;"></i>
+        </div>
         <section id="education" class="py-10">
             <h2 class="text-3xl font-bold text-center">Pendidikan</h2>
             <div class="mt-4 text-lg max-w-2xl mx-auto">
@@ -174,7 +200,7 @@
     </style>
 
     <footer class="bg-gray shadow-md p-2 text-center mt-10">
-        <p>My Portofolio, Gilang Arya &copy; 2025</p>
+        <p style="font-size: small;">My Portofolio, Gilang Arya &copy; 2025</p>
     </footer>
     
     <script>
